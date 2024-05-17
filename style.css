@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  flex-direction: column;
+  gap: 5rem;
+}
+button {
+  padding: 15px 30px;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+button:first-child {
+  background: red;
+}
+button:nth-child(2) {
+  background: blue;
+}
+button:nth-child(3) {
+  background: orange;
+}
+button:nth-child(4) {
+  background: green;
+}
+button:nth-child(5) {
+  background: yellow;
+  color: #000;
+}
+button:nth-child(6) {
+  background: teal;
+}
+button:last-child {
+  background: purple;
+}
+.app_heading {
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.white {
+  color: white;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.black {
+  color: rgb(5, 5, 5);
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn_border {
+  border: 1px solid rgb(163, 221, 244);
+  box-shadow: 1px 1px 20px #ccc;
+}
+
+.red {
+  background: #ff0000;
+}
+.blue {
+  background: #310dff;
+}
+.orange {
+  background: #ff9a03;
+}
+.green {
+  background: #49fe02;
+}
+.yellow {
+  background: #ffff05;
+}
+.teal {
+  background: #03ffdd;
+}
+.purple {
+  background: #530158;
+}
+.input_label {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+input {
+  font-size: 1.8rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 8px;
+}
+.code_generate_container {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+.input_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+input[type="button"] {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: green;
+  color: #fff;
+  border: none;
+}
+.alert_box {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  background: rgb(7, 7, 7);
+  padding: 10px 12px;
+  border-radius: 50px;
+}
+.input_label_white {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+}
